@@ -1,0 +1,37 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+.form-wrapper{
+    width: 660px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #bfbfbf;
+  border-left: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+}
+.form-title{
+    /* border-top: solid 1px #bfbfbf;
+    border-bottom:solid 1px #bfbfbf;
+    border-right: solid 1px#bfbfbf; */
+    width: 240px;
+    /* ↑240pxから64＋16pxを引いた数字で設定 */
+    margin: 0 8px 0px 0;
+    padding: 10px 0 0 16px;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  box-sizing: border-box;
+}
+
+.form-item{
+    width: 400px;
+    margin: 8px 0 8px 8px ;
+   
+}
+
